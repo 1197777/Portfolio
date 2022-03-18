@@ -1,0 +1,160 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+header {
+  background-color: white;
+  padding: 13px;
+  box-shadow: 0 0 7px #000;
+}
+header li {
+  display: inline;
+  padding-left: 40px;
+}
+header li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 13px;
+  transition: 0.3s ease;
+}
+
+header li a:hover {
+  color: #87bcde;
+}
+
+header ul #contact a {
+  color: #fff;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  float: right;
+  top: -15px;
+  transition: 0.3s ease;
+}
+header ul #contact a:hover {
+  background-color: rgb(218, 32, 48);
+}
+.active {
+  color: #87bcde;
+}
+
+header li img {
+  width: 180px;
+  float: left;
+  margin-top: -50px;
+}
+.titel {
+  width: 300px;
+  height: 100px;
+}
+ul {
+  margin-bottom: -45px;
+  margin-left: -1400px;
+}
+
+.container {
+  background-image: url(/img/background.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 21rem;
+}
+p {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 23px;
+}
+.foto {
+  width: 500px;
+  margin-left: 950px;
+  margin-bottom: 100px;
+}
+.foto2 {
+  height: 250px;
+}
+.foto4 {
+  height: 250px;
+  width: 300px;
+  margin-bottom: 100px;
+}
+.foto5 {
+  height: 250px;
+  width: 300px;
+  margin-bottom: 100px;
+}
+.portfolio {
+  font-size: 30px;
+  color: #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Supermercado One", cursive;
+  color: #fff;
+}
+.map {
+  font-size: 18px;
+  font-family: "Supermercado One", cursive;
+  color: white;
+}
+.pijl {
+  font-size: 18px;
+  color: white;
+}
+iframe {
+  height: 400px;
+  width: 1000px;
+  margin-top: 150px;
+}
+.container2 {
+  background-image: url(/img/background2.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 8rem;
+}
+.foto3 {
+  height: 310px;
+  margin-top: 20px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h2 {
+  font-size: 19px;
+  margin-top: 40px;
+}
